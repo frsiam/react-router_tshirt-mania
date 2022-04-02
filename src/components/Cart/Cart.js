@@ -21,7 +21,7 @@ const Cart = ({cart,handleRemoveItem}) => {
     }
 
     return (
-        <div>
+        <div className='sticky top-5 grid justify-center'>
             <h1>Item Selected: {cart.length}</h1>
             {
                 cart.map((tShirt, index) => <p>
